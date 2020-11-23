@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <style type="text/css">
+            html {
+                height: 100%;
+            }
+            body {
+                height: 100%;
+                margin: 0;
+                background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.9051995798319328) 2%, rgba(14,10,91,1) 9%, rgba(23,48,134,1) 16%, rgba(21,93,163,1) 26%, rgba(66,113,148,1) 40%, rgba(30,217,255,1) 54%, rgba(69,106,140,1) 69%, rgba(83,137,187,1) 86%, rgba(81,132,179,1) 94%, rgba(90,150,204,0.9023984593837535) 99%, rgba(92,153,209,1) 100%);
+                display: flex;background-size: cover;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+            }
+        
+
+            .city {
+                align-items: center;
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 40px 8%;
+                border-radius: 20px;
+                box-shadow: 1rem 1rem 0.5rem rgba(0,0,0,0.3);
+                background: #fff;
+            }
+
+            .city-name {
+                font-size: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="city">
+            <h2 class="city-name">
+                <span>You are offline.</span>
+            </h2>
+        </div>
+    </body>
+</html>
